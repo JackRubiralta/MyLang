@@ -102,3 +102,30 @@ const LinkedList: type = {
 ```
 // maybe look into having something where
 // the reference goes and you cna then use & to get poiner 
+
+
+
+
+
+var foo: int(int, int) = (const x: int, const y: int){
+    return x + y;
+};
+const arr: int[3] = [1, 2, 3];
+var p: &int = m;
+or
+
+var foo(int, int): int[] = (const x: int, const y: int){
+    return x + y;
+};
+const arr[3]: int = [1, 2, 3];
+var p: &int = m;
+
+var arr: int[] = [1, 2, 3];
+arr = [1, 2, 4, 5] // ERROR
+
+
+but this works
+var arr: int[size] = [1, 2, 3, 4];
+// so as parameter and returing
+yay
+

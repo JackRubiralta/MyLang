@@ -2,7 +2,7 @@ from Lexer.lexer import tokenize
 from Parser.parser import parse
 import json
 
-
+#https://chat.openai.com/c/66cd23e3-cca7-4143-9a5c-0402a6f7ede3
 x = [
 ['var', 'num1', 'int', '=', ['3']],
 ['num1', '=', ['2']],
@@ -39,7 +39,7 @@ def read_code_from_file(file_path):
 
 def main():
     # Assume the paths might change based on your project structure
-    code_file_path = './input_code/program.txt'
+    code_file_path = './input_code/program1.txt'
     output_json_path = './input_code/program.json'
     
     # Read code from file
@@ -47,6 +47,7 @@ def main():
     
     # Tokenize and parse
     tokens = list(tokenize(code))
+    print(tokens)
     structured_format = parse(tokens)
     
     # Write the structured format to JSON
