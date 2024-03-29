@@ -129,3 +129,14 @@ var arr: int[size] = [1, 2, 3, 4];
 // so as parameter and returing
 yay
 
+
+type Foo struct {
+    x int
+    y int
+}
+
+var f Foo = Foo{x: 1, y: 2} // Initialize a Foo struct with x=1 and y=2
+
+var fp *Foo = &f // Create a pointer fp that points to f
+fp.x -> gives pointer of x
+
