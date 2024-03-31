@@ -112,31 +112,24 @@ var foo: int(int, int) = (const x: int, const y: int){
 };
 const arr: int[3] = [1, 2, 3];
 var p: &int = m;
-or
 
-var foo(int, int): int[] = (const x: int, const y: int){
-    return x + y;
-};
-const arr[3]: int = [1, 2, 3];
-var p: &int = m;
 
+const str type = char[]
 var arr: int[] = [1, 2, 3];
 arr = [1, 2, 4, 5] // ERROR
 
 
 but this works
-var arr: int[size] = [1, 2, 3, 4];
+var arr: int[] = [1, 2, 3, 4];
 // so as parameter and returing
 yay
 
+refereces like rust
+so
 
-type Foo struct {
-    x int
-    y int
-}
+// because reference != pointer
+// reference does not pointer in meomety
+ref x int = y
 
-var f Foo = Foo{x: 1, y: 2} // Initialize a Foo struct with x=1 and y=2
-
-var fp *Foo = &f // Create a pointer fp that points to f
-fp.x -> gives pointer of x
-
+// for heap pontes
+ref h int = &new(3)
