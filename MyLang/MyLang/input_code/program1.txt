@@ -1,0 +1,18 @@
+const foo int(int, int) = (const x int const m int){
+    var y int = 3;
+    y = x + 3;
+    var arr int[] = [1, 2, 3]; 
+    if (y == 3) {
+        y = y + 3;
+        var h int = 5; 
+        if (h > 2) {
+            y = 1;
+        };
+    } else {
+        return 1 + y;
+    };
+    y = y * 2;
+    return y + 1;
+};
+
+
