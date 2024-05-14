@@ -121,7 +121,7 @@ arr = [1, 2, 4, 5] // ERROR
 
 but this works
 var arr: int[] = [1, 2, 3, 4];
-// so as parameter and returing
+// so can have array of unknow length as parameter and returing beacuse it is added to the stack top
 yay
 
 refereces like rust
