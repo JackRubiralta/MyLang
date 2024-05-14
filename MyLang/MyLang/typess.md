@@ -131,5 +131,11 @@ so
 // reference does not pointer in meomety
 ref x int = y
 
-// for heap pontes
-ref h int = &new(3)
+// for heap pontes must be ref
+ref h int = &new(3
+
+
+also for variables of class like &foo.leafs gives pointer to leafs and if it i have pointer to foo if i get pointer_foo.leafs is give pointer
+also even though ref doesnet always create pointer in stack as compiler just replaces it sometimes in thsi code have it do that
+
+this is main file
