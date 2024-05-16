@@ -95,7 +95,7 @@ const LinkedList: type = {
             delete(current_node.next);
             &current_node.next = null;
         }
-    }
+    }a
 
 }
 
@@ -141,3 +141,4 @@ also even though ref doesnet always create pointer in stack as compiler just rep
 this is main file
 
 OR COULD HAVE REFERENCE TYPE that is like &varitable 
+LOOK AT HOW const are declared while runtime and also think about looking on struts and how to make them
