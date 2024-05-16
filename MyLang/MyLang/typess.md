@@ -139,3 +139,5 @@ also for variables of class like &foo.leafs gives pointer to leafs and if it i h
 also even though ref doesnet always create pointer in stack as compiler just replaces it sometimes in thsi code have it do that
 
 this is main file
+
+OR COULD HAVE REFERENCE TYPE that is like &varitable 
