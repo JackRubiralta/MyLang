@@ -142,3 +142,9 @@ this is main file
 
 OR COULD HAVE REFERENCE TYPE that is like &varitable 
 LOOK AT HOW const are declared while runtime and also think about looking on struts and how to make them
+
+POINTER METHOD WORKS AND IS GOOD BUT WE COULD LOOK INTO REFS
+delete() and new() both work well 
+const declared during run time are added to stack
+so having var and const inside of a struct works
+look into struct constructor though 
