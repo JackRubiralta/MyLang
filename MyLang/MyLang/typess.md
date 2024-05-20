@@ -148,3 +148,7 @@ delete() and new() both work well
 const declared during run time are added to stack
 so having var and const inside of a struct works
 look into struct constructor though 
+
+
+
+Just like go have package where it is like every file is part of the same file and scope
